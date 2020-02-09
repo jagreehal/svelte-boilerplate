@@ -1,0 +1,14 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*"],
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ESNext",
+    "module": "ESNext",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "types": ["svelte", "jest"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  }
+}
